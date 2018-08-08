@@ -6,7 +6,6 @@ multi-bleu.perl
 .idea
 *.sublime-*
 .DS_Store
-data/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -110,3 +109,8 @@ ENV/
 
 # Tensorboard
 runs/
+
+### Project specific
+lm/data/**/*.txt
+lm/data/**/*.pkl
+lm/save
